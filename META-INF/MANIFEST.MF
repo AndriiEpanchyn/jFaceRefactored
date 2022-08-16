@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JFaceRefactored
+Bundle-SymbolicName: JFaceRefactored;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.swt;bundle-version="3.119.0",
+ org.eclipse.jface;bundle-version="3.25.0",
+ org.eclipse.jface.text;bundle-version="3.20.0"
+Automatic-Module-Name: JFaceRefactored
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Export-Package: jfacerefactored.ui,
+ jfacerefactored.ui.tableviewer

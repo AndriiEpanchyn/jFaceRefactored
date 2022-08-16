@@ -1,0 +1,7 @@
+<!ELEMENT plugin (extension)>
+<!ELEMENT extension (application)>
+<!ATTLIST extension id NMTOKEN #REQUIRED>
+<!ATTLIST extension point NMTOKEN #REQUIRED>
+<!ELEMENT application (run)>
+<!ELEMENT run (#PCDATA)>
+<!ATTLIST run class NMTOKEN #REQUIRED>
